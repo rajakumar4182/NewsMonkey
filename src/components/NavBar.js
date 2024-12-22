@@ -26,9 +26,9 @@ export class NavBar extends Component {
                 style={{ "--bs-scroll-height": "100px" }}
               >
                 <li className="nav-item">
-                  <a className="nav-link " aria-current="page" to="/">
+                  <Link className="nav-link " aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
